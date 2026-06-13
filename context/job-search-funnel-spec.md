@@ -9,6 +9,8 @@ sanitisation: teaches the how; contains no personal search data, no applied-to c
 
 # Job-Search Funnel: Implementation Spec
 
+> New here? This is the full technical reference. For the plain-language version start with [docs/what-it-does.md](../docs/what-it-does.md), or [docs/quickstart.md](../docs/quickstart.md) to run it yourself.
+
 This is the system the community build starts from. It's been running for real since March 2026, first as an n8n cron pipeline and now as a Claude Code skill. Everything below is the method. The criteria values, company names, and pipeline data from the original search stay out of the repo, and section 5 spells out exactly what gets genericised before anything goes public.
 
 ---
