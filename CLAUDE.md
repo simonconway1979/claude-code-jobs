@@ -4,6 +4,16 @@ A community-built tool from the Happy Operators community: what's actually movin
 
 This repo is the team. All project context lives here, so your Claude session already knows what the project is and where it's up to. If something matters and it isn't in the repo, it didn't happen.
 
+## Start here (the why before the how)
+
+Lead with the value, because that's why this is worth anyone's time:
+
+- **[docs/vision.md](docs/vision.md)** — why this matters: what it's worth to individuals, the community, and community leaders, and what it could become.
+- **[docs/what-it-does.md](docs/what-it-does.md)** — what the job tool actually does for you, in plain terms.
+- **[docs/quickstart.md](docs/quickstart.md)** — set it up to screen jobs for yourself.
+
+Then, if how the team works interests you (it's the secondary benefit, and the reason Simon's investing): **[context/ways-of-working.md](context/ways-of-working.md)**. The deep technical reference is **[context/job-search-funnel-spec.md](context/job-search-funnel-spec.md)**.
+
 ## One project, no picker
 
 This is a single-project OS-Intelligence repo. `/os-start` drops you straight into this project — no menu. It reads `STAGE` to give you orientation matched to where the loop currently is.
@@ -30,7 +40,8 @@ Never commit to main. The skills won't, and neither should you.
 
 ## Where things live
 
-- `context/` — shared project knowledge: how the pipeline works, what the community asked for, decisions log, ideas
+- `docs/` — the reader-facing guides: vision (why), what-it-does, quickstart
+- `context/` — the working knowledge: the funnel spec, how we work, the measures, the decisions log, ideas
 - `.claude/skills/` — the working skills, starting with the job-search pipeline port
 - `build-log.md` — append-only async log; every working session ends with a few lines here (what I did, what I learned, what's open). This replaces standups.
 - `outputs/` — the product as it forms
