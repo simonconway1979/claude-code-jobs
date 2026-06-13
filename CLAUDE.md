@@ -34,6 +34,7 @@ Never commit to main. The skills won't, and neither should you.
 - `.claude/skills/` — the working skills, starting with the job-search pipeline port
 - `build-log.md` — append-only async log; every working session ends with a few lines here (what I did, what I learned, what's open). This replaces standups.
 - `outputs/` — the product as it forms
+- `scripts/` — fast test loop for iterating on the skills (`scripts/README.md`)
 - `STAGE` — the loop stage `/os-start` orients you to
 
 ## The sanitisation rule
