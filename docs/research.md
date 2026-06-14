@@ -31,7 +31,7 @@ About 15 minutes to get going. You don't need to be a builder.
 **2. Download the repo and start Claude.**
 
 ```
-gh repo clone <owner>/claude-code-jobs
+gh repo clone simonconway1979/claude-code-jobs
 cd claude-code-jobs
 claude
 ```
