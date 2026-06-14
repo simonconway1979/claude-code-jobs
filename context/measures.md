@@ -4,7 +4,7 @@ Two things get measured here, kept apart on purpose: whether the **product** is 
 
 ## Is the product good?
 
-The honest test is whether people use it and whether it helps. The single clearest signal for the job tool is the **applied → in-process conversion rate** — of the roles the screener surfaces and someone applies to, how many turn into a real conversation. That measures whether the tool surfaces things that actually convert, not just things that look like matches. Alongside it: are people running it more than once, and do the roles it calls GO hold up on a human read.
+The honest test is whether people use it and whether it changes what they do — and since the product is a market read with more than one use, the measure follows the use. For the screener we start from, the clearest signal is the **applied → in-process conversion rate**: of the roles it surfaces and someone applies to, how many turn into a real conversation. That measures whether it surfaces things that actually convert, not just things that look like matches. Alongside it: are people running it more than once, and do the roles it calls GO hold up on a human read. As other lenses get built — pay, skills trends, company classification — each gets its own "did it change a decision" test rather than being judged by the screener's number.
 
 ## Is the way of working good?
 

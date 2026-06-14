@@ -32,6 +32,8 @@ The bar is deliberately low, and that's the point:
 - A fix to context that couldn't answer your question
 - Code
 
+Before your first PR, read [CONTRIBUTING.md](CONTRIBUTING.md) — the short version: you keep your work and your credit, the community gets a permanent right to use it, and you only contribute what's yours to give. `/os-save` signs your commits off for you.
+
 ## Your API keys
 
 The pipeline talks to external job APIs. Keys never go in this repo. Put yours in `~/.config/ccmi/.env` (chmod 600) and the skills will source it. The orientation walks you through this when you first need it.
