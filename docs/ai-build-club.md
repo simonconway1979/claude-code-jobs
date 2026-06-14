@@ -1,6 +1,6 @@
 # Claude Code Jobs — AI Build Club
 
-[← Back to the landing page](landing.md)
+[← Back to the landing page](../README.md)
 
 ① Research  ·  **▶ ② AI Build Club — you are here**  ·  ③ Kill workshop  ·  ④ Launch
 

@@ -1,6 +1,6 @@
 # Claude Code Jobs — Research stage
 
-[← Back to the landing page](landing.md)
+[← Back to the landing page](../README.md)
 
 **▶ ① Research — you are here**  ·  [② AI Build Club](ai-build-club.md)  ·  ③ Kill workshop  ·  ④ Launch
 
@@ -50,4 +50,4 @@ Everything lands as a PR, so it's all in one place and nothing's lost. When Buil
 
 ---
 
-[← Back to the landing page](landing.md)  ·  New here? Start with [why this matters](vision.md).
+[← Back to the landing page](../README.md)  ·  New here? Start with [why this matters](vision.md).
