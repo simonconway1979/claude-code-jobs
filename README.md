@@ -1,10 +1,13 @@
 # Claude Code Jobs
 
-**Overview**  ·  [Research →](research.md)  ·  [AI Build Club →](ai-build-club.md)
+**Overview**  ·  [Research →](docs/research.md)  ·  [AI Build Club →](docs/ai-build-club.md)
 
 **The community's own living read on the Claude Code job market — built by the people the market is actually chasing.**
 
 It's a market that's exploding and impossible to read clearly from any one seat. A small team of us is building a shared read on it, in the open. You can use what's here, point it at your own question, bring something you've already built, or just watch. Reply in the channel or DM me and I'll add you to the repo.
+
+> **Status:** Research stage — open to the community. The find-job screener (the first lens) is being ported into the repo now.
+> **Start here:** new? Read [START-HERE.md](START-HERE.md) and run `/os-start` — clone to first contribution in ~15 minutes. How contributions work (you keep your work and your credit): [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
@@ -29,7 +32,7 @@ You don't have to care about all of those. You probably care a lot about one. Th
 
 ## Where we start
 
-I've just kicked off my own job search, so I built a simple but effective screener: it pulls the fresh postings each evening, drops what you've already seen, and screens the rest against criteria you wrote yourself — handing back a short ranked list, each role marked GO / EXPLORE / PASS with a line on why and the reasoning shown so you can argue with it. [what-it-does.md](what-it-does.md) covers it; [quickstart.md](quickstart.md) runs it for your own search.
+I've just kicked off my own job search, so I built a simple but effective screener: it pulls the fresh postings each evening, drops what you've already seen, and screens the rest against criteria you wrote yourself — handing back a short ranked list, each role marked GO / EXPLORE / PASS with a line on why and the reasoning shown so you can argue with it. [what-it-does.md](docs/what-it-does.md) covers it; [quickstart.md](docs/quickstart.md) runs it for your own search.
 
 That's on the table because I have it and I'm happy to share it — not because it's the plan. It's one lens (a filter for a job seeker) on a market that has many. Use it as-is, sharpen it, or ignore it and build the lens you actually want.
 

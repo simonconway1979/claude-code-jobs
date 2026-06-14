@@ -29,7 +29,7 @@ Read, in order: `CLAUDE.md`, `STAGE`, `context/current-state.md` (if present), t
 Then print a compact briefing:
 
 ```
-CLAUDE CODE MARKET INTELLIGENCE — [stage] stage
+CLAUDE CODE JOBS — [stage] stage
 
 You're on branch: [branch]
 
