@@ -10,7 +10,7 @@ Target: cloned to oriented in under 15 minutes, first contribution inside your f
 4. Clone:
 
 ```
-gh repo clone <owner>/claude-code-jobs
+gh repo clone simonconway1979/claude-code-jobs
 cd claude-code-jobs
 claude
 ```

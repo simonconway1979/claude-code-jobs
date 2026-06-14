@@ -52,8 +52,13 @@ Check for an open PR on this branch: `gh pr view --json state 2>/dev/null`.
 
 ## Step 6 — Confirm
 
-Print the PR URL. Then the **very last thing** written to the screen must be the block below, with nothing after it — so a returning contributor sees "SESSION SAVED" pinned at the bottom without hunting back through the text. End the response with exactly this, formatted as-is:
+Print the PR URL. Then the **very last thing** written to the screen must be the confirmation block below, with nothing after it — so a returning contributor sees "SESSION SAVED" pinned at the bottom without hunting back through the text.
 
+**Wrap the block in a fenced code block (```)** when you output it. This is essential: printed as plain markdown, `SESSION SAVED` above a line of dashes becomes a heading and the dash lines become horizontal rules, so it renders mangled. Inside a code fence the dashes stay literal.
+
+End the response with exactly this (the outer ``` fence included):
+
+````
 ```
 Summary
 [1–2 sentence description of the session's work, in the spirit of the PR description.]
@@ -62,3 +67,4 @@ Summary
 SESSION SAVED
 -------------
 ```
+````

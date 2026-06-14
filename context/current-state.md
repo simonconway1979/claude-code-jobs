@@ -17,14 +17,15 @@ The community's shared, living read on the Claude Code job market — which role
 - The contributor model — `CONTRIBUTING.md` (you keep your work + credit; the community gets a permanent right to use it), Apache-2.0 + CC-BY-4.0, DCO sign-off wired into `/os-save`.
 - The find-job screener as a documented feature — `features/find-job-screener/` (README, spec, criteria + queries templates, a fictional worked example). The method is real and running; the repo describes it.
 - The working loop — `/os-start` and `/os-save` skills; `scripts/` test loop.
+- **The repo is public.** Clone and contribute via `README.md` + `START-HERE.md`; the clone command uses the real handle.
 
 **In progress / not yet built:**
 - The runnable screener skill (`.claude/skills/find-job-screener/`) — being ported; not yet runnable from the repo.
-- The repo is still private; not yet opened to the community.
+- Not yet broadly announced to the community, and `main` is not yet branch-protected.
 
 ## Open / next
 
-1. **Go live for research** — flip the repo public (or send collaborator invites), replace the `<owner>` placeholders with the real handle, and post the invite (`README` + `docs/research`).
+1. **Finish going live** — repo is public and the clone command works; remaining: turn on branch protection for `main`, do a newcomer dry-run (`scripts/refresh-test.sh`), then post the invite (`README` + `docs/research`).
 2. **Catch up `decisions-log.md`** with the reframes — screener = one lens, the loop rename, the `features/` structure, the licensing norm.
 3. **Port the find-job-screener skill** into `.claude/skills/`.
 4. **Add the pre-publish sanitisation grep** (`features/find-job-screener/spec.md` §5) before outside contributions start bringing data.
