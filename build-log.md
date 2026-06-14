@@ -33,3 +33,8 @@ Append-only. Every working session ends with a few lines here: what I did, what 
 - What I did: repo is now public. Replaced the <owner> placeholders in START-HERE.md and docs/research.md with the real handle so the clone command works as written. Fixed the /os-save "SESSION SAVED" banner to render literally — it's now emitted inside a code fence.
 - What I learned: a dashed banner printed as plain markdown is parsed as a setext heading + horizontal rules, which mangles it; wrapping it in a code fence keeps the dashes literal.
 - Open for someone else: turn on branch protection for main now it's public; do a newcomer dry-run (scripts/refresh-test.sh) before wider sharing; still open — port the screener skill, the sanitisation grep, and the decisions-log catch-up.
+
+## 2026-06-15: simonconway1979 (cont.)
+- What I did: removed em-dashes from every reader-facing and authored file (README, all docs, CONTRIBUTING, START-HERE, CLAUDE.md, the context docs, the screener feature files and templates, and the os-start/os-save skill text), replacing each with natural punctuation. Left build-log.md as-is, since it's the append-only history. Saved the no-em-dash preference to project memory so it sticks, including in generated files.
+- What I learned: a clean sweep needs care around code fences, markdown tables, and hyphenated compounds; the rule is "natural punctuation, never a plain hyphen, never touch AI-native and friends."
+- Open for someone else: same go-live items stand: branch protection on main, a newcomer dry-run, then post the invite; plus port the screener skill, add the sanitisation grep, and catch up the decisions-log reframes.
