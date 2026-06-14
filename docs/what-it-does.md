@@ -1,5 +1,7 @@
 # What this does for you
 
+This is the first tool in the repo and the thing we start from: a job screener I built for my own search and put in the pot to share. It's one lens on the market — a filter for someone job-hunting — and the wider project is broader than it ([vision.md](vision.md)). But it's real, it's running, and it's a good look at what "useful" means here.
+
 Most job boards hand you fifty postings a night and leave the filtering to you, so the evening goes on reading roles you'd never take instead of acting on the one or two you would. This flips that around.
 
 Every evening it pulls the fresh postings from your saved searches, drops anything you've already seen, and screens what's left against criteria you wrote yourself. What comes back is a short, ranked list: each role marked **GO**, **EXPLORE**, or **PASS**, with a single line saying why. The GOs arrive as ready-to-act files, so moving one into your tracked pipeline is a command rather than a copy-paste session.
@@ -22,4 +24,4 @@ It's not a bigger firehose, and it's not an auto-applier. It's a filter with tas
 
 ---
 
-Want to run it for your own search? See [quickstart.md](quickstart.md). Want the full engineering detail? See [../context/job-search-funnel-spec.md](../context/job-search-funnel-spec.md). Curious where this could go as a community? See [vision.md](vision.md).
+Want to run it for your own search? See [quickstart.md](quickstart.md). Want the full engineering detail? See [the screener's home](../features/find-job-screener/README.md) and its [spec](../features/find-job-screener/spec.md). Curious where this could go as a community? See [vision.md](vision.md).

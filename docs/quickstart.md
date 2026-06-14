@@ -25,4 +25,4 @@ If you take one thing from this: the value lives in your criteria file, not the 
 
 ---
 
-Full mechanics: [../context/job-search-funnel-spec.md](../context/job-search-funnel-spec.md). What you actually get out of it: [what-it-does.md](what-it-does.md).
+Full mechanics: [the screener's home](../features/find-job-screener/README.md) and its [spec](../features/find-job-screener/spec.md). What you actually get out of it: [what-it-does.md](what-it-does.md).

@@ -27,7 +27,7 @@ If the session produced notes, reasoning, or feedback that isn't already in file
 ## Step 3 — Commit and push
 
 1. `git add -A`
-2. `git commit -m "<one-line summary of the session>"`
+2. `git commit -s -m "<one-line summary of the session>"` — the `-s` adds the DCO `Signed-off-by:` line (see `CONTRIBUTING.md`).
 3. `git push -u origin HEAD`
 
 ## Step 4 — Pull request
