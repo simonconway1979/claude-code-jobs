@@ -17,6 +17,7 @@ The community's shared, living read on the Claude Code job market — which role
 - The contributor model — `CONTRIBUTING.md` (you keep your work + credit; the community gets a permanent right to use it), Apache-2.0 + CC-BY-4.0, DCO sign-off wired into `/os-save`.
 - The find-job screener as a documented feature — `features/find-job-screener/` (README, spec, criteria + queries templates, a fictional worked example). The method is real and running; the repo describes it.
 - The working loop — `/os-start` and `/os-save` skills; `scripts/` test loop.
+- First-timer onboarding — `/os-start` briefing now includes a "New here? Ask me to onboard you" prompt that delivers a sub-500-word recap of vision, what-it-does, and quickstart.
 
 **In progress / not yet built:**
 - The runnable screener skill (`.claude/skills/find-job-screener/`) — being ported; not yet runnable from the repo.

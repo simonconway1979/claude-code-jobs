@@ -28,3 +28,8 @@ Append-only. Every working session ends with a few lines here: what I did, what 
 - What I did: go-live prep. Promoted docs/landing.md to the root README.md so the repo has a real GitHub front door (added a status line + start-here pointer, repointed the tab/back links). Fixed a stale title in the os-start briefing (now "CLAUDE CODE JOBS"). Wired current-state into /os-save — it now refreshes context/current-state.md each save and ends with a pinned "SESSION SAVED" banner. Mapped the path to going live (now in current-state Open/next).
 - What I learned: going live for the research stage doesn't need a runnable screener — research is feedback / ideas / prior work, so the bar is "a newcomer can clone, understand, and contribute." And os-start read current-state.md while nothing wrote it — that asymmetry is exactly why it was always missing.
 - Open for someone else: flip the repo public (or send invites) and replace the <owner> placeholders with the real handle; port the find-job-screener skill; build the pre-publish sanitisation grep; catch up decisions-log with the reframes.
+
+## 2026-06-16 — guidovezzoni
+- What I did: added first-timer onboarding to /os-start — a "New here? Ask me to onboard you" line in the briefing, plus an Onboarding section that tells Claude to recap vision, what-it-does, and quickstart in under 500 words when asked.
+- What I learned: newcomers can't easily tell what's runnable vs planned, and the docs assume more context than a first-timer has. The onboarding path wasn't explicit enough.
+- Open for someone else: port the find-job-screener skill; the onboarding recap will be more useful once there's something runnable to point people at.
