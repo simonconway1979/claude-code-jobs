@@ -18,6 +18,7 @@ The community's shared, living read on the Claude Code job market: which roles a
 - The find-job screener as a documented feature: `features/find-job-screener/` (README, spec, criteria + queries templates, a fictional worked example). The method is real and running; the repo describes it.
 - The working loop: `/os-start` and `/os-save` skills; `scripts/` test loop.
 - **The repo is public.** Clone and contribute via `README.md` + `START-HERE.md`; the clone command uses the real handle.
+- First-timer onboarding: the `/os-start` briefing includes a "New here? Ask me to onboard you" prompt that delivers a sub-500-word recap of vision, what-it-does, and quickstart.
 
 **In progress / not yet built:**
 - The runnable screener skill (`.claude/skills/find-job-screener/`): being ported; not yet runnable from the repo.

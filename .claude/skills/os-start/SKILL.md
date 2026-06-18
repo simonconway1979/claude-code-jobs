@@ -36,6 +36,7 @@ You're on branch: [branch]
 **What this is:** [1-2 sentences from CLAUDE.md]
 **Where it's up to:** [2-3 sentences from current-state + build log]
 **Open right now:** [open items from the build log / decisions]
+**New here?** Ask me to onboard you.
 
 [Stage-specific orientation: see below]
 ```
@@ -48,3 +49,13 @@ Stage-specific orientation:
 - **adoption:** "The new version just shipped. Install it, use it for real, and file what works and what doesn't. That feedback opens the next loop."
 
 End by asking what they want to do, not by listing options at them.
+
+## Onboarding
+
+When a contributor asks to be onboarded (or words to that effect), read `docs/vision.md`, `docs/what-it-does.md`, and `docs/quickstart.md`, then deliver a recap in under 500 words covering:
+
+1. Why this project exists and what it's for (from vision.md)
+2. What the screener does: the GO / EXPLORE / PASS flow (from what-it-does.md)
+3. What's runnable right now vs what's still being built (be honest about the gap, from quickstart.md)
+
+End by pointing them to those three files plus `features/find-job-screener/example.criteria.md` (a worked criteria file they can study to understand the shape of the product).
