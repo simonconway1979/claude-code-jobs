@@ -1,4 +1,4 @@
-# scripts/ — fast test loop for the skills
+# scripts/: fast test loop for the skills
 
 Two scripts for iterating on this repo's skills (`/os-start`, `/os-save`) and context without a full git round-trip each time. Ported from the os-intelligence test workflow.
 
@@ -23,4 +23,4 @@ Then open the test dir in a separate Claude Code window and run `/os-start`. Re-
 ## Two things to know
 
 1. **Run from a real terminal**, not Claude's sandboxed bash. On macOS, files Claude writes are tagged `com.apple.provenance`, and a sandboxed `rm`/`cp` over them fails with "Operation not permitted." Use Terminal, or the `!` prefix in the Claude prompt.
-2. **Testing `/os-save` pushes to the real repo.** `/os-save` opens a real branch + PR on GitHub by design, so a test run leaves a test branch/PR behind. That's fine on a private repo — just delete them after. `sync-test.sh` copies keep this repo's remote, so they push to the real repo too.
+2. **Testing `/os-save` pushes to the real repo.** `/os-save` opens a real branch + PR on GitHub by design, so a test run leaves a test branch/PR behind. That's fine on a private repo, just delete them after. `sync-test.sh` copies keep this repo's remote, so they push to the real repo too.

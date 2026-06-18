@@ -29,6 +29,16 @@ Append-only. Every working session ends with a few lines here: what I did, what 
 - What I learned: going live for the research stage doesn't need a runnable screener — research is feedback / ideas / prior work, so the bar is "a newcomer can clone, understand, and contribute." And os-start read current-state.md while nothing wrote it — that asymmetry is exactly why it was always missing.
 - Open for someone else: flip the repo public (or send invites) and replace the <owner> placeholders with the real handle; port the find-job-screener skill; build the pre-publish sanitisation grep; catch up decisions-log with the reframes.
 
+## 2026-06-15 — simonconway1979 (cont.)
+- What I did: repo is now public. Replaced the <owner> placeholders in START-HERE.md and docs/research.md with the real handle so the clone command works as written. Fixed the /os-save "SESSION SAVED" banner to render literally — it's now emitted inside a code fence.
+- What I learned: a dashed banner printed as plain markdown is parsed as a setext heading + horizontal rules, which mangles it; wrapping it in a code fence keeps the dashes literal.
+- Open for someone else: turn on branch protection for main now it's public; do a newcomer dry-run (scripts/refresh-test.sh) before wider sharing; still open — port the screener skill, the sanitisation grep, and the decisions-log catch-up.
+
+## 2026-06-15: simonconway1979 (cont.)
+- What I did: removed em-dashes from every reader-facing and authored file (README, all docs, CONTRIBUTING, START-HERE, CLAUDE.md, the context docs, the screener feature files and templates, and the os-start/os-save skill text), replacing each with natural punctuation. Left build-log.md as-is, since it's the append-only history. Saved the no-em-dash preference to project memory so it sticks, including in generated files.
+- What I learned: a clean sweep needs care around code fences, markdown tables, and hyphenated compounds; the rule is "natural punctuation, never a plain hyphen, never touch AI-native and friends."
+- Open for someone else: same go-live items stand: branch protection on main, a newcomer dry-run, then post the invite; plus port the screener skill, add the sanitisation grep, and catch up the decisions-log reframes.
+
 ## 2026-06-16 — guidovezzoni
 - What I did: added first-timer onboarding to /os-start — a "New here? Ask me to onboard you" line in the briefing, plus an Onboarding section that tells Claude to recap vision, what-it-does, and quickstart in under 500 words when asked.
 - What I learned: newcomers can't easily tell what's runnable vs planned, and the docs assume more context than a first-timer has. The onboarding path wasn't explicit enough.

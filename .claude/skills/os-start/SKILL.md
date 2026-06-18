@@ -1,19 +1,19 @@
 ---
 name: os-start
-description: Start a working session — verify GitHub identity, create or resume your branch, and get a stage-aware briefing on the project's current state.
+description: Start a working session: verify GitHub identity, create or resume your branch, and get a stage-aware briefing on the project's current state.
 ---
 
-# /os-start — single-project session start
+# /os-start: single-project session start
 
 This repo has one project. No picker. Three steps: identity, branch, briefing.
 
-## Step 1 — Identity
+## Step 1: Identity
 
 Run `gh auth status`. If it fails, tell the contributor to run `gh auth login` themselves (it's interactive), then re-run `/os-start`. Don't proceed without it.
 
 Get the username: `USER=$(gh api user -q .login)`.
 
-## Step 2 — Branch
+## Step 2: Branch
 
 Never work on main.
 
@@ -22,14 +22,14 @@ Never work on main.
 3. Look for an existing branch of this contributor for the current stage: `git branch --list "<stage>/$USER*" -a`. If one exists, check it out and pull. Otherwise: `git checkout -b <stage>/$USER-$(date +%Y%m%d) origin/main`.
 4. Confirm to the contributor which branch they're on.
 
-## Step 3 — Briefing
+## Step 3: Briefing
 
 Read, in order: `CLAUDE.md`, `STAGE`, `context/current-state.md` (if present), the last ~30 lines of `build-log.md`, and `context/decisions-log.md` headings.
 
 Then print a compact briefing:
 
 ```
-CLAUDE CODE JOBS — [stage] stage
+CLAUDE CODE JOBS: [stage] stage
 
 You're on branch: [branch]
 
@@ -38,15 +38,15 @@ You're on branch: [branch]
 **Open right now:** [open items from the build log / decisions]
 **New here?** Ask me to onboard you.
 
-[Stage-specific orientation — see below]
+[Stage-specific orientation: see below]
 ```
 
 Stage-specific orientation:
 
-- **research:** "You're here to test and feed back. Install the product (ask me how), try it, read the docs, poke at the repo. Tell me your reactions as we go, or write notes — when you're done, run /os-save and your feedback becomes a PR in your name."
+- **research:** "You're here to test and feed back. Install the product (ask me how), try it, read the docs, poke at the repo. Tell me your reactions as we go, or write notes. When you're done, run /os-save and your feedback becomes a PR in your name."
 - **build:** "Pick something from the build queue (ask me what's open) or bring your own piece. Build log entry at the end of your session, then /os-save."
 - **playback:** "Prototypes are being demoed and triaged. You can test anything in outputs/ and add your verdict evidence before the kill/iterate/go-live calls land."
-- **adoption:** "The new version just shipped. Install it, use it for real, and file what works and what doesn't — that feedback opens the next loop."
+- **adoption:** "The new version just shipped. Install it, use it for real, and file what works and what doesn't. That feedback opens the next loop."
 
 End by asking what they want to do, not by listing options at them.
 
@@ -55,7 +55,7 @@ End by asking what they want to do, not by listing options at them.
 When a contributor asks to be onboarded (or words to that effect), read `docs/vision.md`, `docs/what-it-does.md`, and `docs/quickstart.md`, then deliver a recap in under 500 words covering:
 
 1. Why this project exists and what it's for (from vision.md)
-2. What the screener does — the GO / EXPLORE / PASS flow (from what-it-does.md)
-3. What's runnable right now vs what's still being built — be honest about the gap (from quickstart.md)
+2. What the screener does: the GO / EXPLORE / PASS flow (from what-it-does.md)
+3. What's runnable right now vs what's still being built (be honest about the gap, from quickstart.md)
 
 End by pointing them to those three files plus `features/find-job-screener/example.criteria.md` (a worked criteria file they can study to understand the shape of the product).

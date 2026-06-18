@@ -10,7 +10,7 @@ Target: cloned to oriented in under 15 minutes, first contribution inside your f
 4. Clone:
 
 ```
-gh repo clone <owner>/claude-code-jobs
+gh repo clone simonconway1979/claude-code-jobs
 cd claude-code-jobs
 claude
 ```
@@ -18,7 +18,7 @@ claude
 ## Every session
 
 1. Run `/os-start`. It verifies your GitHub login, puts you on your own branch, and briefs you on the project's current state and stage.
-2. Work. Ask Claude anything about the repo — "how does the screening step work?", "what did the last person add?", "what's open?". The shared context answers; no human needed.
+2. Work. Ask Claude anything about the repo: "how does the screening step work?", "what did the last person add?", "what's open?". The shared context answers; no human needed.
 3. Run `/os-save`. It commits your work, pushes your branch, and opens (or updates) a pull request in your name. That PR is your contribution.
 
 ## What counts as a contribution
@@ -32,7 +32,7 @@ The bar is deliberately low, and that's the point:
 - A fix to context that couldn't answer your question
 - Code
 
-Before your first PR, read [CONTRIBUTING.md](CONTRIBUTING.md) — the short version: you keep your work and your credit, the community gets a permanent right to use it, and you only contribute what's yours to give. `/os-save` signs your commits off for you.
+Before your first PR, read [CONTRIBUTING.md](CONTRIBUTING.md). The short version: you keep your work and your credit, the community gets a permanent right to use it, and you only contribute what's yours to give. `/os-save` signs your commits off for you.
 
 ## Your API keys
 

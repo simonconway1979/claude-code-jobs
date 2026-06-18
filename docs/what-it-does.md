@@ -1,6 +1,6 @@
 # What this does for you
 
-This is the first tool in the repo and the thing we start from: a job screener I built for my own search and put in the pot to share. It's one lens on the market — a filter for someone job-hunting — and the wider project is broader than it ([vision.md](vision.md)). But it's real, it's running, and it's a good look at what "useful" means here.
+This is the first tool in the repo and the thing we start from: a job screener I built for my own search and put in the pot to share. It's one lens on the market (a filter for someone job-hunting), and the wider project is broader than it ([vision.md](vision.md)). But it's real, it's running, and it's a good look at what "useful" means here.
 
 Most job boards hand you fifty postings a night and leave the filtering to you, so the evening goes on reading roles you'd never take instead of acting on the one or two you would. This flips that around.
 
@@ -10,13 +10,13 @@ The point isn't to find more jobs. It's to spend your evening on the three roles
 
 ## How it works, briefly
 
-It's simple, and it's yours. Saved searches fetch the fresh roles, a quick check removes the ones you've already seen, and a screener reads each remaining job against your criteria file and assigns the verdict. Those criteria are the heart of it — your judgment about what makes a role worth your time, written down once and then applied every night while you get on with something else.
+It's simple, and it's yours. Saved searches fetch the fresh roles, a quick check removes the ones you've already seen, and a screener reads each remaining job against your criteria file and assigns the verdict. Those criteria are the heart of it: your judgment about what makes a role worth your time, written down once and then applied every night while you get on with something else.
 
 ## Why the screen is worth trusting
 
 It reads the actual job description, not just the tags. Boards routinely under-report the things that quietly kill applications, like required office days or "remote" that turns out to be country-locked, so the screener scans the body text for them rather than believing the checkboxes.
 
-It also shows its reasoning. Every verdict carries the signals it found — the language the role uses, how its responsibilities are shaped — so you can spot-check a call instead of trusting a bare score, and an argument like "the title says X but the language profile says Y" is one you can actually push back on. And when the posting doesn't say something, it flags the gap and asks rather than quietly guessing.
+It also shows its reasoning. Every verdict carries the signals it found (the language the role uses, how its responsibilities are shaped), so you can spot-check a call instead of trusting a bare score, and an argument like "the title says X but the language profile says Y" is one you can actually push back on. And when the posting doesn't say something, it flags the gap and asks rather than quietly guessing.
 
 ## What it isn't
 
